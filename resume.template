@@ -109,6 +109,26 @@
 					</div><!--// .yui-gf -->
 					{{/if}}
 
+					<div class="yui-gf">
+						{{#if resume.languages.length}}
+						<div class="yui-u first">
+							<h2>Lingue</h2>
+						</div>
+						<div class="yui-u">
+									{{#each resume.languages}}
+								<div class="talent">
+												{{#language}}
+									<h2>{{.}}</h2>
+												{{/language}}
+															{{#fluency}}
+									<p>{{.}}</p>
+															{{/fluency}}
+								</div>
+									{{/each}}
+						</div>
+						{{/if}}
+					</div><!--// .yui-gf -->
+
 					{{#if resume.volunteer.length}}
 					<div class="yui-gf">
 						<div class="yui-u first">
@@ -139,26 +159,6 @@
 						</div><!--// .yui-u -->
 					</div><!--// .yui-gf -->
 					{{/if}}
-
-					<div class="yui-gf">
-						{{#if resume.languages.length}}
-						<div class="yui-u first">
-							<h2>Lingue</h2>
-						</div>
-						<div class="yui-u">
-									{{#each resume.languages}}
-								<div class="talent">
-												{{#language}}
-									<h2>{{.}}</h2>
-												{{/language}}
-															{{#fluency}}
-									<p>{{.}}</p>
-															{{/fluency}}
-								</div>
-									{{/each}}
-						</div>
-						{{/if}}
-					</div><!--// .yui-gf -->
 
 					<div class="yui-gf last">
 						{{#if resume.skills.length}}

@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-srt",
-  "version": "0.1.3",
-  "description": "SRT theme for JSON Resume",
-  "author": "Nabil Bendafi",
+  "name": "jsonresume-theme-srt-it",
+  "version": "0.1",
+  "description": "Italian version of SRT theme for JSON Resume",
+  "author": "Dario Prandi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nabilbendafi/jsonresume-theme-srt"
+    "url": "https://github.com/dprn/jsonresume-theme-srt-it"
   },
   "license": "MIT",
   "dependencies": {
